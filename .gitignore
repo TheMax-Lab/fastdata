@@ -1,0 +1,22 @@
+# Build output
+bin/
+obj/
+*.user
+*.trx
+
+# Visual Studio
+.vs/
+
+# Generated test results
+TestResults/
+
+# Generated benchmark/test/log artifacts (contain local machine data — never publish)
+artifacts/
+
+# One-shot working probe
+scratch-avg-probe/
+
+# Local-only operational files (excluded from publication)
+PROMPT_CLAUDE.md
+/FastData.cs
+/FastExpressionEngine.cs
